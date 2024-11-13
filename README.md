@@ -1,4 +1,4 @@
-![alt text](https://github.com/WebFritzi/GUI64/GUI64.png)
+![alt text](https://github.com/WebFritzi/GUI64/Pics/GUI64.png)
 
 # GUI64
 GUI64 is a graphical user interface for the C64 with which you can run your programs and games but also cut/copy/paste/delete/rename files or format/rename disks.
