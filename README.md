@@ -34,7 +34,7 @@ $7c00 - $8000 : buffer for color data<br>
 $8000 - $9000 : string list for drive 8<br>
 $9000 - $a000 : string list for drive 9
 
-# Changes in Version 1.1 (Work in Progress)
+# Changes Coming in Version 1.1 (Work in Progress)
 * I am currently working on a file viewer within GUI64 which lets you look into files either in text mode or in hex mode.
 * A new menu item in the disk browser window for credits info
 * Rearrangement of the memory map. For example, graphics data (char sets and sprites) are now copied to the RAM under the kernal when GUI64 starts. There will be a free area in RAM dedicated to applications.
