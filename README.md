@@ -1,6 +1,6 @@
 ![alt text](https://github.com/WebFritzi/GUI64/blob/main/GUI64.png)
 
-# GUI64
+# GUI64 v1.0
 GUI64 is a graphical user interface for the C64 with which you can run your programs and games but also cut/copy/paste/delete/rename files or format/rename disks.
 
 **Control:**<br>
@@ -13,10 +13,10 @@ There are currently two options: you either download GUI64.D64 and load GUI64 fr
 # Code
 GUI64 was developed in ACME 6502 assembler with _C64 Studio_ which you can download here:<br>
 https://www.georg-rottensteiner.de/files/C64StudioRelease.zip<br>
-In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64 and in the next file chooser click on "Cancel".<br>
+To build GUI64, download the files in the "Code" folder and open C64 Studio. In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64 and in the next file browser click on "Cancel".<br>
 The main file is GUI64.asm.
 
-Here is the current memory map of GUI64:
+Here is the memory map of GUI64 v1.0:
 
 Code and fixed data:<br>
 $033c - $5700 : Program<br>
