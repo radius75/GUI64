@@ -11,7 +11,7 @@ Joystick in Port #2
 There are currently two options: you either download GUI64.D64 and load GUI64 from disk with LOAD"*",8,1 or you use GUI64.PRG. The latter works great with a Kung Fu Flash cartridge.
 
 # Code
-GUI64 was developed in ACME 6502 assembler with _C64 Studio_ which you can download here:<br>
+GUI64 was developed in 6502 assembler (ACME syntax) with _C64 Studio_ which you can download here:<br>
 https://www.georg-rottensteiner.de/files/C64StudioRelease.zip<br>
 To build GUI64, download the files in the "Code" folder and open C64 Studio. In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64 and in the next file browser click on "Cancel".<br>
 The main file is GUI64.asm.
