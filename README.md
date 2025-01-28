@@ -7,6 +7,9 @@ GUI64 is a graphical user interface for the C64 with which you can run your prog
 Mouse in Port #1<br>
 Joystick in Port #2
 
+# GUI64 WIP Version
+The latest WIP version of GUI64 can be found in the branch "Developer" as *gui64-dev.d64*. Please be aware that this version might contain bugs and might not run smoothly.
+
 # Binaries
 There are currently two options: you either download GUI64.D64 and load GUI64 from disk with LOAD"*",8,1 or you use GUI64.PRG. The latter works great with a Kung Fu Flash cartridge.
 
