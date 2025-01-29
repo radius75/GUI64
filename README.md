@@ -1,7 +1,7 @@
 ![alt text](https://github.com/WebFritzi/GUI64/blob/main/GUI64.png)
 
 # GUI64 v1.0
-GUI64 is a graphical user interface for the C64 with which you can run your programs and games but also cut/copy/paste/delete/rename files or format/rename disks.
+GUI64 is a graphical user interface for the C64 that allows you to run programs and games, as well as manage files by cutting, copying, pasting, deleting, and renaming them. Additionally, it enables you to format and rename disks.
 
 **Control:**<br>
 Mouse in Port #1<br>
