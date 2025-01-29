@@ -15,7 +15,7 @@ There are currently two options: you either download GUI64.D64 and load GUI64 fr
 
 # Code
 GUI64 was developed in 6502 assembler (ACME syntax) with _C64 Studio_ which you can download here:<br>
-<p style="text-align: center;">https://www.georg-rottensteiner.de/files/C64StudioRelease.zip</p><br>
+<c>https://www.georg-rottensteiner.de/files/C64StudioRelease.zip</c><br>
 To build GUI64, download the files in the "Code" folder and open C64 Studio. In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64 and in the next file browser click on "Cancel".<br>
 The main file is GUI64.asm.
 
