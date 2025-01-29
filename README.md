@@ -16,10 +16,9 @@ There are currently two options: you either download GUI64.D64 and load GUI64 fr
 # Code
 GUI64 was developed in 6502 assembler (ACME syntax) with _C64 Studio_ which you can download here:<br>
 <p align="center">https://www.georg-rottensteiner.de/files/C64StudioRelease.zip</p>
-To build GUI64, download the files in the "Code" folder and open C64 Studio. In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64 and in the next file browser click on "Cancel".<br>
-The main file is GUI64.asm.
+To build GUI64, download the files in the "Code" folder and open C64 Studio. In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64, and in the next file browser click on "Cancel". The main file is GUI64.asm.<br><br>
 
-Here is the memory map of GUI64 v1.0:
+**Memory map of GUI64 v1.0**
 
 Code and fixed data:<br>
 $033c - $5700 : Program<br>
@@ -41,11 +40,8 @@ $9000 - $a000 : string list for drive 9
 * A file viewer which lets you look into files either in text mode or in hex mode.
 * Support of device numbers other than #8 and #9.
 * SD2IEC support
-* A new menu item in the disk browser window for credits info
+* A new menu item in the disk browser window
 * Rearrangement of the memory map. For example, graphics data (char sets and sprites) are now copied to the RAM under the kernal when GUI64 starts. There will be a free area in RAM dedicated to applications.
 
 # Future Plans
-The next big leap will be a cartridge version of GUI64. But for this, I'll have to get familiar with C64 cartridge programming.
-Other plans:
-* improve keyboard input
-* long button press on controls (e.g., updown control or scrollbar arrows)
+The next big leap will be a cartridge version of GUI64 v1.1. For this, I'll have to become familiar with C64 cartridge programming.
