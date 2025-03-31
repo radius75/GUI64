@@ -36,12 +36,14 @@ $7c00 - $8000 : buffer for color data<br>
 $8000 - $9000 : string list for drive 8<br>
 $9000 - $a000 : string list for drive 9
 
-# Coming in Version 1.1 (Work in Progress)
-* A file viewer which lets you look into files either in text mode or in hex mode.
+# Coming in Version 2.0 (Work in Progress)
+* A more compact appearance of the file browser window with an icon indicating the file type, followed by file name and file size.
 * Support of device numbers other than #8 and #9.
-* SD2IEC support
-* A new menu item in the disk browser window
+* SD2IEC support, changing directories etc.
+* A new menu in the disk browser window: "View". Has menu items "File Sizes" (On/Off), "Lower Case" (On/Off), "Sort by Name", "Sort by Type", "Sort by Size".
+* A new menu item in the "File" menu: "New". Lets you create new disk images (d64/d71/d81/dnp).
+* Aother new menu item in the "File" menu: "View". Lets you look into files either in text mode or in hex mode.
 * Rearrangement of the memory map. For example, graphics data (char sets and sprites) are now copied to the RAM under the kernal when GUI64 starts. There will be a free area in RAM dedicated to applications.
 
 # Future Plans
-The next big leap will be a cartridge version of GUI64 v1.1. For this, I'll have to become familiar with C64 cartridge programming.
+The next big leap will be a cartridge version of GUI64 v2.0. For this, I'll have to become familiar with C64 cartridge programming.
