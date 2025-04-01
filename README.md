@@ -43,7 +43,6 @@ $9000 - $a000 : string list for drive 9
 * New menu "View" in the disk browser window with menu items "File Sizes" (On/Off), "Lower Case" (On/Off), "Sort by Name", "Sort by Type", "Sort by Size".
 * New menu item "New" in the "File" menu lets you create new disk images (d64/d71/d81/dnp).
 * New menu item "View" in the "File" menu lets you look into files in text and hex mode.
-* Rearrangement of the memory map. For example, graphics data (char sets and sprites) are now copied to the RAM under the kernal when GUI64 starts. There will be a free area in RAM dedicated to applications.
 
 # Future Plans
 The next big leap will be a cartridge version of GUI64 v2.0. For this, I'll have to become familiar with C64 cartridge programming.
