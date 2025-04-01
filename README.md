@@ -48,4 +48,5 @@ $9000 - $a000 : string list for drive 9
 
 # Future Plans
 * Cartridge version of GUI64 v2.0.
+* Retrieve time from Ultimate 64 and SD2IECs with RTC.
 * Application programming interface: It will be possible to run a single app in GUI64.
