@@ -40,7 +40,7 @@ $9000 - $a000 : string list for drive 9
 * A more compact appearance of the file browser window with an icon indicating the file type, followed by file name and (optional) file size.
 * Support of device numbers other than #8 and #9.
 * SD2IEC support, browsing between directories and disk images.
-* A new menu in the disk browser window: "View". Has menu items "File Sizes" (On/Off), "Lower Case" (On/Off), "Sort by Name", "Sort by Type", "Sort by Size".
+* A new menu "View" in the disk browser window with menu items "File Sizes" (On/Off), "Lower Case" (On/Off), "Sort by Name", "Sort by Type", "Sort by Size".
 * A new menu item in the "File" menu: "New". Lets you create new disk images (d64/d71/d81/dnp).
 * Another new menu item in the "File" menu: "View". Lets you look into files either in text mode or in hex mode.
 * Rearrangement of the memory map. For example, graphics data (char sets and sprites) are now copied to the RAM under the kernal when GUI64 starts. There will be a free area in RAM dedicated to applications.
