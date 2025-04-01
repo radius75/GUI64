@@ -47,4 +47,5 @@ $9000 - $a000 : string list for drive 9
 * Maybe even copying files between SD2IEC directories will be possible.
 
 # Future Plans
-The next big leap will be a cartridge version of GUI64 v2.0. For this, I'll have to become familiar with C64 cartridge programming.
+* Cartridge version of GUI64 v2.0.
+* Application programming interface: It will be possible to run a single app in GUI64.
