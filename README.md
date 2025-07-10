@@ -18,7 +18,7 @@ To build GUI64, download the files in the "Code" folder and open C64 Studio. In 
 **Memory map of GUI64 v1.71**
 
 | Range of memory        | Contents                               |
-| ---------------------- | -------------------------------------- |
+| :---------------------- | :-------------------------------------- |
 | ``$033c - $5f00``      | Program code                           |
 | ``$5f00 - $6000``      | FREEMEM, used, e.g., for copying files |
 | ``$6000 - $9800``      | 14 KB free for one single GUI64 app    |
