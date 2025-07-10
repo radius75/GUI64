@@ -17,30 +17,39 @@ To build GUI64, download the files in the "Code" folder and open C64 Studio. In 
 
 **Memory map of GUI64 v1.71**
 
-------------------------------------------------------
 $033c - $5f00 : Program code
-======================================================
+
 $5f00 - $6000 : FREEMEM, used, e.g., for copying files
-------------------------------------------------------
+
 $6000 - $9800 : 14 KB free for one single GUI64 app
-------------------------------------------------------
+
 $9800 - $9900 : 16 window structs
+
 $9900 - $a000 : 112 control structs
+
 $a000 - $a370 : Buffer for desktop data
+
 $a370 - $a400 : Buffer for taskbar data
+
 $a400 - $a800 : Buffer for color data
+
 $a800 - $bc00 : String list for drive A (255 entries)
+
 $bc00 - $d000 : String list for drive B (255 entries)
-------------------------------------------------------
+
 Graphics elements in I/O area
 $d000 - $d800 : Char set (desktop)
+
 $d800 - $e000 : Sprites (currently - $dbc0)
-------------------------------------------------------
+
 $e000 - $e400 : Char set (taskbar)
+
 $e400 - $e800 : Screen memory
+
 $e800 - $ff00 : 5.75 KB buffer for file viewer content
+
 $ff00 - $ffff : Jump tables
-------------------------------------------------------
+
 
 # Coming in Version 2.0 (Work in Progress)
 * File browser: Implementation of the menu entries "Sort by Name", "Sort by Type", "Sort by Size" in the "View" menu
