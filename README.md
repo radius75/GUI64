@@ -41,7 +41,7 @@ To build GUI64, download the files in the "Code" folder and open C64 Studio. In 
 
 
 # Coming in Version 2.0 (Work in Progress)
-* File browser: Implementation of file viewer (menu entry "View" in "File" menu) to look into files in text and hex mode
+* File browser: Implementation of file viewer (menu entry "View" in "File" menu) to examine files in text and hex mode
 * File browser: Copy files between SD2IEC directories; maybe even copying files between disks in the same drive via disk swap will be possible as well
 
 # Future Plans
