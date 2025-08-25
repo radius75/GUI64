@@ -4,7 +4,7 @@
 GUI64 is a graphical user interface for the Commodore 64 that allows you to run programs and games, as well as to manage files by cutting, copying, pasting, deleting, and renaming them. It moreover enables you to format and rename disks, browse your folders on your SD2IEC device, and create new disk images and folders. For detailed information on GUI64, check out the C64-Wiki page https://www.c64-wiki.com/wiki/GUI64.
 
 **Control:**<br>
-Mouse in Port #1<br>
+Mouse in Port #1 (mouse wheel support with adapter Micromys)<br>
 Joystick in Port #2 (right click with Commodore key + fire)
 
 # Binaries
