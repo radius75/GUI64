@@ -1,6 +1,6 @@
 ![alt text](https://github.com/WebFritzi/GUI64/blob/main/GUI64.png)
 
-# GUI64 v1.8
+# GUI64 v1.81
 GUI64 is a graphical user interface for the Commodore 64 that allows you to run programs and games, as well as to manage files by cutting, copying, pasting, deleting, and renaming them. It moreover enables you to format and rename disks, browse your folders on your SD2IEC device, and create new disk images and folders. For detailed information on GUI64, check out the C64-Wiki page https://www.c64-wiki.com/wiki/GUI64.
 
 **Control:**<br>
@@ -15,13 +15,15 @@ GUI64 was developed in 6502 assembly code (ACME syntax) with _C64 Studio_ which 
 <p align="center">https://www.georg-rottensteiner.de/files/C64StudioRelease.zip</p>
 To build GUI64, download the files in the "Code" folder and open C64 Studio. In C64 Studio, go to "File->Open->Solution or Project", choose GUI64.c64, and in the next file browser click on "Cancel". The main file is GUI64.asm.<br><br>
 
-**Memory map of GUI64 v1.8**
+**Memory map of GUI64 v1.81**
 
 | Range of memory        | Contents                               |
 | :---------------------- | :-------------------------------------- |
-| ``$033c - $5f00``      | Program code                           |
-| ``$5f00 - $6000``      | FREEMEM, used, e.g., for copying files |
-| ``$6000 - $9800``      | 14 KB free for one single GUI64 app    |
+| ``$033c - $6500``      | Program code                           |
+| ``$6500 - $6600``      | Path for drive A                       |
+| ``$6600 - $6700``      | Path for drive B                       |
+| ``$6700 - $6800``      | FREEMEM, used, e.g., for copying files |
+| ``$6800 - $9800``      | 12 KB free for one single GUI64 app    |
 | ``$9800 - $9900``      | 16 window structs                      |
 | ``$9900 - $a000``      | 112 control structs                    |
 | ``$a000 - $a370``      | Buffer for desktop data                |
@@ -39,11 +41,10 @@ To build GUI64, download the files in the "Code" folder and open C64 Studio. In 
 
 
 # Coming in Version 2.0 (Work in Progress)
-* File browser: Implementation of the menu entries "Sort by Name", "Sort by Type", "Sort by Size" in the "View" menu
 * File browser: Implementation of the menu entry "View" in the "File" menu to look into files in text and hex mode
 * File browser: Copy files between SD2IEC directories; maybe even copying files between disks in the same drive via disk swap will be possible as well
 
 # Future Plans
 * Cartridge version of GUI64 v2.0
-* Retrieve time from Ultimate 64 and SD2IECs with RTC
-* Application programming interface: It will be possible to run a single app in GUI64.
+* Retrieve time from Ultimate 64 and SD2IECs with RealTimeClock
+* Application programming interface: program your app for GUI64
