@@ -8,7 +8,7 @@ Mouse in Port #1 (mouse wheel support with adapter Micromys)<br>
 Joystick in Port #2 (right click with Commodore key + fire)
 
 # Binaries
-There are currently two options: you either download GUI64.D64 and load GUI64 from disk with LOAD"*",8,1 or you use GUI64.PRG. The latter works great with a Kung Fu Flash cartridge. In this case, GUI64 is at your disposal right after switching on your computer.
+There are currently two options: you either download GUI64.D64 and load GUI64 from disk with 'LOAD"*",8,1', or you use GUI64.PRG. The latter works great with a Kung Fu Flash cartridge. In this case, GUI64 is at your disposal right after switching on your computer. In the near future, GUI64 will be available as a virtual cartridge (crt file).
 
 # Code
 GUI64 was developed in 6502 assembly code (ACME syntax) with _C64 Studio_ which you can download here:<br>
